@@ -143,4 +143,4 @@ function removeStudentWithOutAssignment(student) {
     return student.filter(student => student.isAssignmentCompleted);
 }
 let result = removeStudentWithOutAssignment(students);
-// console.log("Updated List",result)
+console.log("Updated List", result);
